@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('http://https://chat-gpt-alpha-backend.vercel.app/', { 
+        const response = await fetch('https://chat-gpt-alpha-backend.vercel.app/', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
